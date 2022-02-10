@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Tappy-TappyUITests/Pods-Tappy-TappyUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Moscapsule/Moscapsule.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL

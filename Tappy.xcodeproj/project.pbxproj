@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FC106B827B5B182001FFFCA /* MQTTConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC106B727B5B182001FFFCA /* MQTTConnection.swift */; };
 		4FFCFBD327B5A29000408934 /* TappyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCFBD227B5A29000408934 /* TappyApp.swift */; };
 		4FFCFBD527B5A29000408934 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCFBD427B5A29000408934 /* ContentView.swift */; };
 		4FFCFBD727B5A29100408934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFCFBD627B5A29100408934 /* Assets.xcassets */; };
@@ -15,6 +16,9 @@
 		4FFCFBDF27B5A29100408934 /* Tappy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCFBDD27B5A29100408934 /* Tappy.xcdatamodeld */; };
 		4FFCFBE927B5A29100408934 /* TappyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCFBE827B5A29100408934 /* TappyTests.swift */; };
 		4FFCFBF327B5A29100408934 /* TappyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCFBF227B5A29100408934 /* TappyUITests.swift */; };
+		5AA6F5CA905EC07AB9578B4F /* Pods_TappyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 102207C42ACBF0E816F90DA1 /* Pods_TappyTests.framework */; };
+		9C76E37AD074337F85D4013A /* Pods_Tappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E716754BF239FC0BF1ABBA44 /* Pods_Tappy.framework */; };
+		DD70FDA943C0263D0DA8FACE /* Pods_Tappy_TappyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5047A3D22963E66F41174D48 /* Pods_Tappy_TappyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0444DCE6AD5F74095C5164A2 /* Pods-Tappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tappy.debug.xcconfig"; path = "Target Support Files/Pods-Tappy/Pods-Tappy.debug.xcconfig"; sourceTree = "<group>"; };
+		102207C42ACBF0E816F90DA1 /* Pods_TappyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D8E2CFB80F12045EC2AF3C /* Pods-Tappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tappy.release.xcconfig"; path = "Target Support Files/Pods-Tappy/Pods-Tappy.release.xcconfig"; sourceTree = "<group>"; };
+		4FC106B727B5B182001FFFCA /* MQTTConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTConnection.swift; sourceTree = "<group>"; };
 		4FFCFBCF27B5A29000408934 /* Tappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFCFBD227B5A29000408934 /* TappyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappyApp.swift; sourceTree = "<group>"; };
 		4FFCFBD427B5A29000408934 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +54,12 @@
 		4FFCFBE827B5A29100408934 /* TappyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappyTests.swift; sourceTree = "<group>"; };
 		4FFCFBEE27B5A29100408934 /* TappyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFCFBF227B5A29100408934 /* TappyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappyUITests.swift; sourceTree = "<group>"; };
+		5047A3D22963E66F41174D48 /* Pods_Tappy_TappyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tappy_TappyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F26E6A89897F7935DC75C76 /* Pods-Tappy-TappyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tappy-TappyUITests.release.xcconfig"; path = "Target Support Files/Pods-Tappy-TappyUITests/Pods-Tappy-TappyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AEA77BBDE721F5DC1A0DE553 /* Pods-Tappy-TappyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tappy-TappyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tappy-TappyUITests/Pods-Tappy-TappyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E44AA8FED85F87B1431D78A7 /* Pods-TappyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappyTests.release.xcconfig"; path = "Target Support Files/Pods-TappyTests/Pods-TappyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E716754BF239FC0BF1ABBA44 /* Pods_Tappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38B34178D61FC7E731B5BB7 /* Pods-TappyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappyTests.debug.xcconfig"; path = "Target Support Files/Pods-TappyTests/Pods-TappyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C76E37AD074337F85D4013A /* Pods_Tappy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA6F5CA905EC07AB9578B4F /* Pods_TappyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD70FDA943C0263D0DA8FACE /* Pods_Tappy_TappyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +97,8 @@
 				4FFCFBE727B5A29100408934 /* TappyTests */,
 				4FFCFBF127B5A29100408934 /* TappyUITests */,
 				4FFCFBD027B5A29000408934 /* Products */,
+				8BB8E97114BBC2C29711CAA4 /* Pods */,
+				D1EDFB0A60C429FE758EF707 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,7 @@
 				4FFCFBDB27B5A29100408934 /* Persistence.swift */,
 				4FFCFBDD27B5A29100408934 /* Tappy.xcdatamodeld */,
 				4FFCFBD827B5A29100408934 /* Preview Content */,
+				4FC106B727B5B182001FFFCA /* MQTTConnection.swift */,
 			);
 			path = Tappy;
 			sourceTree = "<group>";
@@ -130,6 +150,30 @@
 			path = TappyUITests;
 			sourceTree = "<group>";
 		};
+		8BB8E97114BBC2C29711CAA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0444DCE6AD5F74095C5164A2 /* Pods-Tappy.debug.xcconfig */,
+				14D8E2CFB80F12045EC2AF3C /* Pods-Tappy.release.xcconfig */,
+				AEA77BBDE721F5DC1A0DE553 /* Pods-Tappy-TappyUITests.debug.xcconfig */,
+				9F26E6A89897F7935DC75C76 /* Pods-Tappy-TappyUITests.release.xcconfig */,
+				F38B34178D61FC7E731B5BB7 /* Pods-TappyTests.debug.xcconfig */,
+				E44AA8FED85F87B1431D78A7 /* Pods-TappyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1EDFB0A60C429FE758EF707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E716754BF239FC0BF1ABBA44 /* Pods_Tappy.framework */,
+				5047A3D22963E66F41174D48 /* Pods_Tappy_TappyUITests.framework */,
+				102207C42ACBF0E816F90DA1 /* Pods_TappyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FFCFBF627B5A29200408934 /* Build configuration list for PBXNativeTarget "Tappy" */;
 			buildPhases = (
+				94556BD77482B2E616DCE770 /* [CP] Check Pods Manifest.lock */,
 				4FFCFBCB27B5A29000408934 /* Sources */,
 				4FFCFBCC27B5A29000408934 /* Frameworks */,
 				4FFCFBCD27B5A29000408934 /* Resources */,
+				8AA92399731A4C2C64993C85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FFCFBF927B5A29200408934 /* Build configuration list for PBXNativeTarget "TappyTests" */;
 			buildPhases = (
+				F9342C59EB8788C4CC32BE2A /* [CP] Check Pods Manifest.lock */,
 				4FFCFBE027B5A29100408934 /* Sources */,
 				4FFCFBE127B5A29100408934 /* Frameworks */,
 				4FFCFBE227B5A29100408934 /* Resources */,
@@ -172,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FFCFBFC27B5A29200408934 /* Build configuration list for PBXNativeTarget "TappyUITests" */;
 			buildPhases = (
+				0F201CDB11A9E450E5D601A3 /* [CP] Check Pods Manifest.lock */,
 				4FFCFBEA27B5A29100408934 /* Sources */,
 				4FFCFBEB27B5A29100408934 /* Frameworks */,
 				4FFCFBEC27B5A29100408934 /* Resources */,
+				99D8F26E9D4B5AAC5E668AF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,12 +304,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F201CDB11A9E450E5D601A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tappy-TappyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AA92399731A4C2C64993C85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tappy/Pods-Tappy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tappy/Pods-Tappy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tappy/Pods-Tappy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94556BD77482B2E616DCE770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tappy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D8F26E9D4B5AAC5E668AF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tappy-TappyUITests/Pods-Tappy-TappyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tappy-TappyUITests/Pods-Tappy-TappyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tappy-TappyUITests/Pods-Tappy-TappyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9342C59EB8788C4CC32BE2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TappyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FFCFBCB27B5A29000408934 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4FFCFBDF27B5A29100408934 /* Tappy.xcdatamodeld in Sources */,
+				4FC106B827B5B182001FFFCA /* MQTTConnection.swift in Sources */,
 				4FFCFBDC27B5A29100408934 /* Persistence.swift in Sources */,
 				4FFCFBD527B5A29000408934 /* ContentView.swift in Sources */,
 				4FFCFBD327B5A29000408934 /* TappyApp.swift in Sources */,
@@ -417,6 +570,7 @@
 		};
 		4FFCFBF727B5A29200408934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0444DCE6AD5F74095C5164A2 /* Pods-Tappy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +600,7 @@
 		};
 		4FFCFBF827B5A29200408934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D8E2CFB80F12045EC2AF3C /* Pods-Tappy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +630,7 @@
 		};
 		4FFCFBFA27B5A29200408934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38B34178D61FC7E731B5BB7 /* Pods-TappyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +655,7 @@
 		};
 		4FFCFBFB27B5A29200408934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44AA8FED85F87B1431D78A7 /* Pods-TappyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +680,7 @@
 		};
 		4FFCFBFD27B5A29200408934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA77BBDE721F5DC1A0DE553 /* Pods-Tappy-TappyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +703,7 @@
 		};
 		4FFCFBFE27B5A29200408934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F26E6A89897F7935DC75C76 /* Pods-Tappy-TappyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
