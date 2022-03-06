@@ -8,7 +8,7 @@ target 'Tappy' do
   # Pods for Tappy
   
   pod 'Moscapsule', :git => 'https://github.com/flightonary/Moscapsule.git'
-  pod 'OpenSSL-Universal'
+  pod 'OpenSSL-Universal', '~> 1.0.1.20'
 
   target 'TappyTests' do
     inherit! :search_paths
