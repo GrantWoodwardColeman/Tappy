@@ -12,7 +12,7 @@ import Moscapsule
 class ConnectToKeg {
     func sendSignal() {
         // set MQTT Client Configuration
-        let mqttConfig = MQTTConfig(clientId: "cid", host: "test.mosquitto.org", port: 1883, keepAlive: 60)
+        let mqttConfig = MQTTConfig(clientId: "cid", host: "192.168.1.30", port: 1883, keepAlive: 60)
         mqttConfig.onConnectCallback = { returnCode in
             NSLog("Return Code is \(returnCode.description)")
         }
@@ -24,8 +24,8 @@ class ConnectToKeg {
         let mqttClient = MQTT.newConnection(mqttConfig)
 
         // publish and subscribe
-        mqttClient.publish(string: "message", topic: "publish/topic", qos: 2, retain: false, requestCompletion: <#T##((MosqResult, Int) -> ())?##((MosqResult, Int) -> ())?##(MosqResult, Int) -> ()#>
-        mqttClient.subscribe("subscribe/topic", qos: 2)
+        mqttClient.publish(string: "message123", topic: "mqtt/tester", qos: 1, retain: true)
+        //mqttClient.subscribe("subscribe/topic", qos: 2)
 
         // disconnect
         mqttClient.disconnect()
