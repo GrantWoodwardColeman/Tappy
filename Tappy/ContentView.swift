@@ -15,9 +15,18 @@ struct ContentView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            Button("Send Message") {
-                showDetails.toggle()
-                keg.sendSignal()
+            Button("Make Pour") {
+                
+                keg.sendSignal(messageString: "12oz_pour")
+                
+            }
+            Button("Start pour") {
+                
+                keg.sendSignal(messageString: "pour_start")
+            }
+            Button("Stop Pour") {
+                
+                keg.sendSignal(messageString: "pour_stop")
                 
             }
         }
