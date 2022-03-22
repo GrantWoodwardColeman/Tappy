@@ -10,7 +10,7 @@ import Moscapsule
 
 
 class ConnectToKeg {
-    func sendSignal() {
+    func sendSignal(messageString : String) {
         // set MQTT Client Configuration
         let mqttConfig = MQTTConfig(clientId: "cid", host: "192.168.1.30", port: 1883, keepAlive: 60)
         mqttConfig.onConnectCallback = { returnCode in
@@ -24,7 +24,7 @@ class ConnectToKeg {
         let mqttClient = MQTT.newConnection(mqttConfig)
 
         // publish and subscribe
-        mqttClient.publish(string: "message123", topic: "mqtt/tester", qos: 1, retain: true)
+        mqttClient.publish(string: messageString, topic: "mqtt/tester", qos: 1, retain: true)
         //mqttClient.subscribe("subscribe/topic", qos: 2)
 
         // disconnect
