@@ -14,10 +14,10 @@ struct DispenseView: View {
     var body: some View {
         
         Image("Droplet")
-        Button("Pour") {
+        Button() {
             
             showDetails.toggle()
-            keg.sendSignal()
+            keg.sendSignal(messageString: "12oz_pour")
             
         }
     }
