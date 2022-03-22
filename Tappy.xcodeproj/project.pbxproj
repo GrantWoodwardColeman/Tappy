@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F431E5327DD5B2200544C0F /* DispenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F431E5227DD5B2200544C0F /* DispenseView.swift */; };
 		4FC106B827B5B182001FFFCA /* MQTTConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC106B727B5B182001FFFCA /* MQTTConnection.swift */; };
 		4FFCFBD327B5A29000408934 /* TappyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCFBD227B5A29000408934 /* TappyApp.swift */; };
 		4FFCFBD527B5A29000408934 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCFBD427B5A29000408934 /* ContentView.swift */; };
@@ -42,6 +43,7 @@
 		0444DCE6AD5F74095C5164A2 /* Pods-Tappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tappy.debug.xcconfig"; path = "Target Support Files/Pods-Tappy/Pods-Tappy.debug.xcconfig"; sourceTree = "<group>"; };
 		102207C42ACBF0E816F90DA1 /* Pods_TappyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TappyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D8E2CFB80F12045EC2AF3C /* Pods-Tappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tappy.release.xcconfig"; path = "Target Support Files/Pods-Tappy/Pods-Tappy.release.xcconfig"; sourceTree = "<group>"; };
+		4F431E5227DD5B2200544C0F /* DispenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispenseView.swift; sourceTree = "<group>"; };
 		4FC106B727B5B182001FFFCA /* MQTTConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTConnection.swift; sourceTree = "<group>"; };
 		4FFCFBCF27B5A29000408934 /* Tappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFCFBD227B5A29000408934 /* TappyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappyApp.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				4FFCFBDD27B5A29100408934 /* Tappy.xcdatamodeld */,
 				4FFCFBD827B5A29100408934 /* Preview Content */,
 				4FC106B727B5B182001FFFCA /* MQTTConnection.swift */,
+				4F431E5227DD5B2200544C0F /* DispenseView.swift */,
 			);
 			path = Tappy;
 			sourceTree = "<group>";
@@ -160,7 +163,6 @@
 				F38B34178D61FC7E731B5BB7 /* Pods-TappyTests.debug.xcconfig */,
 				E44AA8FED85F87B1431D78A7 /* Pods-TappyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -417,6 +419,7 @@
 				4FFCFBDC27B5A29100408934 /* Persistence.swift in Sources */,
 				4FFCFBD527B5A29000408934 /* ContentView.swift in Sources */,
 				4FFCFBD327B5A29000408934 /* TappyApp.swift in Sources */,
+				4F431E5327DD5B2200544C0F /* DispenseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

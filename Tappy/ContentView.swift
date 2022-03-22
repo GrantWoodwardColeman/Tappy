@@ -14,13 +14,36 @@ struct ContentView: View {
     let keg = ConnectToKeg()
 
     var body: some View {
+        
+
         VStack(alignment: .leading) {
-            Button("Send Message") {
-                showDetails.toggle()
-                keg.sendSignal()
+            TabView{
+                //Referenced views seem to only work when located inside of a VStack
+                VStack{
+                    DispenseView()
+                }
+                    .tabItem{
+                        Image("DropletFourTenths")
+                        Spacer()
+                        Text("Pour")
+                }
+                Text("History")
+                    Text("History will be shown here")
                 
+                    .tabItem{
+                        Image("GraphFourTenths")
+                        Text("History")
+                    }
+                Text("Profile")
+                    Text("This is the profile section")
+                
+                    .tabItem{
+                        Image("PersonFourTenths")
+                        Text("Profile")
+                    }
             }
         }
+
     }
 }
 
